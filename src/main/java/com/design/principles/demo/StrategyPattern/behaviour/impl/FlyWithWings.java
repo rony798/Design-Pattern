@@ -1,6 +1,6 @@
-package com.design.principles.demo.strategy.behaviour.impl;
+package com.design.principles.demo.StrategyPattern.behaviour.impl;
 
-import com.design.principles.demo.strategy.behaviour.FlyBehaviour;
+import com.design.principles.demo.StrategyPattern.behaviour.FlyBehaviour;
 
 public class FlyWithWings implements FlyBehaviour {
     @Override

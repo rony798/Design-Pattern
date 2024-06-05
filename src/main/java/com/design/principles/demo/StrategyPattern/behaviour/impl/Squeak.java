@@ -1,6 +1,6 @@
-package com.design.principles.demo.strategy.behaviour.impl;
+package com.design.principles.demo.StrategyPattern.behaviour.impl;
 
-import com.design.principles.demo.strategy.behaviour.QuackBehaviour;
+import com.design.principles.demo.StrategyPattern.behaviour.QuackBehaviour;
 
 public class Squeak implements QuackBehaviour {
     @Override

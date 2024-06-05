@@ -1,13 +1,13 @@
 package com.design.principles.demo.ObserverPattern.model;
 
-public class CurrentConditionalDislay implements Observer, DisplayElement {
+public class CurrentConditionalDisplay implements Observer, DisplayElement {
 
     private float temperature;
     private float humidity;
     private float pressure;
     private Subject subject;
 
-    public CurrentConditionalDislay(Subject subject) {
+    public CurrentConditionalDisplay(Subject subject) {
         this.subject = subject;
         subject.addObserver(this);
     }

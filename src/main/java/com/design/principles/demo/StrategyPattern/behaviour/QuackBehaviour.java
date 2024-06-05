@@ -1,4 +1,4 @@
-package com.design.principles.demo.strategy.behaviour;
+package com.design.principles.demo.StrategyPattern.behaviour;
 
 public interface QuackBehaviour {
 
