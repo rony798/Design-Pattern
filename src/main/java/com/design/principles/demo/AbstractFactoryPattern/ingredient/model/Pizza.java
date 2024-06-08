@@ -20,12 +20,12 @@ public abstract class Pizza {
     protected String name;
 
     public void prepare() {
-        System.out.println("Used dough"+dough.getName());
-        System.out.println("Used sauce "+ sauce.getName());
-        veggieList.stream().forEach(veggie -> System.out.println(veggie.getName()));
-        System.out.println("Used cheese" + cheese.getName());
-        System.out.println("Used Pepperoni "+ pepperoni.getName());
-        System.out.println("Used Clam" + clam.getName());
+        System.out.println("Used dough "+dough.getName()+ " : "+dough.getPrice());
+        System.out.println("Used sauce "+ sauce.getName() + " : "+sauce.getPrice());
+        veggieList.stream().forEach(veggie -> System.out.println(veggie.getName() + " : "+veggie.getPrice()));
+        System.out.println("Used cheese" + cheese.getName()+ " : "+cheese.getPrice());
+        System.out.println("Used Pepperoni "+ pepperoni.getName()+ " : "+pepperoni.getPrice());
+        System.out.println("Used Clam" + clam.getName()+ " : "+clam.getPrice());
     }
 
     public void setName(String name) {
